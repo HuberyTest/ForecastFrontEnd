@@ -43,7 +43,7 @@ class WeatherForecast extends React.Component {
     render() {
         const ops = this.state.cities.map((item) => <option key={item.id} value={item.id}>{item.name}</option>);
         return (
-            <div className="SelectFrame">
+            <div>
                 <h2>Current weather in your city</h2>
 
                 <select onChange={(e) => this.forecastCity(Number(e.target.value))}>

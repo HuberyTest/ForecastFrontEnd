@@ -1,5 +1,5 @@
 
-const Domain = 	"http://localhost:9080/api";
+const Domain = 	"http://localhost:8081/api";
 function get(uri) {
     let req = {
         method:'GET',
