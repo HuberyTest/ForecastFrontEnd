@@ -46,7 +46,7 @@ class WeatherForecast extends React.Component {
             <div className="Main">
                 <h2>Current weather in your city</h2>
 
-                <select onChange={(e) => this.forecastCity(Number(e.target.value))}>
+                <select onChange={(e) => this.forecastCity(e.target.value)}>
                     {ops}
                 </select>
                 <div>&nbsp;</div>
