@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import fetchMock from 'fetch-mock';
+
+fetchMock.config.fallbackToNetwork = 'always';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
