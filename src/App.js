@@ -1,8 +1,7 @@
 import React from 'react';
-import WeatherForecast from './WeatherForecast';
+import WeatherForecast from './components/WeatherForecast';
 import './App.css';
-import './mock/cityData.js';
-import './mock/forecastData.js';
+import './mock/config'
 
 function App() {
   return (

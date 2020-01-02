@@ -3,13 +3,6 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import fetchMock from 'fetch-mock';
-
-let env = process.env.REACT_APP_ENV;
-if (env === 'prod') {
-    fetchMock.config.fallbackToNetwork = 'always';
-}
-
 
 ReactDOM.render(<App />, document.getElementById('root'));
 

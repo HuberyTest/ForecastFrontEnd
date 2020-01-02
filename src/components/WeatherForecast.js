@@ -1,6 +1,6 @@
 import React from 'react';
-import get from './RequestUtil';
-import formatTime from './DateUtil';
+import get from '../util/RequestUtil';
+import formatTime from '../util/DateUtil';
 
 class WeatherForecast extends React.Component {
     constructor(props) {
