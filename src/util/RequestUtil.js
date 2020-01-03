@@ -5,7 +5,7 @@ function get(uri) {
         headers:{
             'Content-Type':'application/json;charset=UTF-8'
         },
-        cache:'default',
+        cache:'no-cache',
         credentials: 'same-origin'
     }
     return fetch("/api" + uri, req)
