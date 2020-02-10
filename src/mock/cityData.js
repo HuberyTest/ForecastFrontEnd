@@ -14,7 +14,7 @@ export default fetchMock.mock("/api/v1/forecast/cities", {
         },
         {
             id: "13", 
-            name: "Tokeyo"
+            name: "Tokyo"
         }
     ]
 });

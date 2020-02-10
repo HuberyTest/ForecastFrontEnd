@@ -1,7 +1,7 @@
-const WeekName = ["Monday","Tuseday","Wednesday","Thursday","Friday","Saturday","Sunday"];
+const WeekName = ["Sunday","Monday","Tuseday","Wednesday","Thursday","Friday","Saturday"];
 function formatTime(uts) {
     let d = new Date(uts * 1000);
-    return WeekName[d.getDay() - 1] + " " + pad(d.getHours(), 2) + ":" + pad(d.getMinutes(), 2) + " " + (d.getHours() < 12 ? 'AM' : 'PM');
+    return WeekName[d.getDay()] + " " + pad(d.getHours(), 2) + ":" + pad(d.getMinutes(), 2) + " " + (d.getHours() < 12 ? 'AM' : 'PM');
 }
 
 function pad(num, n) {
